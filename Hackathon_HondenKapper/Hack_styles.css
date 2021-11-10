@@ -1,0 +1,79 @@
+heading li{
+    display:inline;
+    text-decoration: none;
+    text-align: center;
+}
+
+heading nav{ 
+    
+    text-decoration: none;
+
+    padding:15px;
+    margin:0px 5px;
+}
+
+.mainp1 {
+    margin:5px 5px;
+    padding:5px 5px 5px 10px;
+    border:1px black solid;        
+    line-height: 20px;
+    background-attachment:scroll;
+    font-weight: bold;
+    background-image:url("jorkas.jpg");
+    background-size: 100% ;
+    background-attachment:scroll;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.mainp2 {
+    margin:5px 5px;
+    padding:5px 5px 5px 10px;
+    border:1px black solid;
+    font-weight: bold;  
+    background-image:url("baltas.jpg");
+    background-size: 100% 100%;
+    background-attachment:scroll;  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+
+.mainp3 {
+    margin:5px 5px;
+    padding:5px 5px 5px 10px;
+    border:1px black solid;
+    color:rgb(248, 141, 141);
+    font-weight:bold;
+    background-image:url("trecias.jpg");
+    background-attachment:scroll;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color:rgba(248, 141, 141, 0.486);
+}
+
+footer{
+    text-align: center;
+    margin:20px;
+}
+
+form{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+@media (min-width : 480px){
+body{
+    background-color: rgb(211, 41, 41);
+}
+.mainp3,.mainp2,.mainp1{
+    background:none;
+    color:rgb(233, 181, 10)
+}
+heading{
+    text-align: center;
+    
+}}
